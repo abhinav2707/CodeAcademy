@@ -263,10 +263,18 @@ header
   text-transform: uppercase;
   letter-spacing: 2px;
   float: left;
+  margin:0;
+  padding:0;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+
+}
+.header-area .main-nav .logo_1{
+  color:#ff511a;
+  margin:0;
+  padding:0;
 }
 
 .background-header .main-nav .logo {
