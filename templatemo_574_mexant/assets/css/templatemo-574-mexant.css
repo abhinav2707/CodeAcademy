@@ -134,6 +134,9 @@ body {
   background: #ff511a;
   color: #fff;
 }
+.description {
+  color: #ff511a;
+}
 
 @media (max-width: 991px) {
   html, body {
@@ -153,8 +156,8 @@ body {
 
 .green-button a {
   font-size: 14px;
-  color: #fff;
-  background-color: #43ba7f;
+  color: #ff511a;
+  background-color: white;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 5px;
@@ -735,6 +738,9 @@ banner
   animation-delay: .3s;
   opacity: 1;
 }
+.swiper-slide-active .div-dec .description {
+  color: #ff511a;
+}
 
 .swiper-slide-active .buttons .green-button,
 .swiper-slide-active .buttons .orange-button {
@@ -817,6 +823,9 @@ section.services {
   padding: 40px;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
   margin-top: 30px;
+}
+.services .service-item .comma{
+  color: #ff511a;
 }
 
 .services .service-item:hover i {
